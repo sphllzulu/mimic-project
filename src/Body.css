@@ -1,0 +1,75 @@
+.container {
+    text-align: left; /* Align content to the left */
+    padding: 20px;
+    max-width: 600px; /* Optional: set a maximum width for the container */
+    margin: 0 ;
+     /* Center the container horizontally if needed */
+     position: relative;
+  }
+  
+  .heading {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .paragraph {
+    font-size: 0.7rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  .container-balls{
+    position: absolute;
+    right: 50%;
+    
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color:rgb(106,90,205); /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: Outfit;
+  }
+  
+  .button:hover {
+    background-color: rgb(106,90,205); /* Darker blue on hover */
+  }
+  
+  .ball3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: radial-gradient(circle, orange 0%, red 50%, red 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 10px 80px;
+
+  }
+  .ball2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: radial-gradient(circle,red 0%, orange 50%, orange 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 10px 100px;
+  }
+  .ball1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #e9dacd 0%, #e6d9ce 50%, #F4A460 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 10px 120px;
+  }
+  .ball:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  
+  .ball:nth-child(3) {
+    margin-top: 20px;
+  }
