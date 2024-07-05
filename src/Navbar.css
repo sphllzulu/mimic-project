@@ -3,7 +3,7 @@
 
 body {
   font-family: Outfit;
-  margin: 0; /* Remove default margin for better control */
+  margin: 0; 
 }
 
 .navbar {
@@ -25,7 +25,7 @@ body {
   list-style: none;
   display: flex;
   gap: 1rem;
-  /* Added flex-wrap for smaller screens */
+
   flex-wrap: wrap;
 }
 
@@ -34,7 +34,7 @@ body {
   text-decoration: none;
   font-size: 1rem;
   font-weight: 400;
-  /* Reduced margin for better spacing on smaller screens */
+ 
   margin: 10px;
 }
 
@@ -53,18 +53,18 @@ body {
   background-color: rgb(123, 104, 238);
 }
 
-/* Media queries for responsiveness */
+
 @media (max-width: 768px) {
   .navbar-logo a {
-    font-size: 1.2rem; /* Adjust font size for smaller screens */
+    font-size: 1.2rem; 
   }
 
   .navbar-list li a {
-    font-size: 0.8rem; /* Adjust font size for smaller screens */
+    font-size: 0.8rem;
   }
 
   .navbar-button button {
-    /* Adjust button size and padding for smaller screens */
+    
     padding: 0.3rem 0.8rem;
   }
 }

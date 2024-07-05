@@ -1,4 +1,5 @@
 import "./Body.css";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Body = () => {
   return (
@@ -12,7 +13,7 @@ const Body = () => {
           With <b>Minds</b>,remote teams can organize projects, <br />manage shifting
           priorities, and get work done
         </p>
-        <button className="button">Get more <i classNamw="fa-solid fa-arrow-up-long"></i></button>
+        <button className="button">Get more <GoArrowUpRight /></button>
       </div>
       
 

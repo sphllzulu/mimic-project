@@ -37,9 +37,10 @@ const Reviews = () => {
 
         <div className="card2">
           <div className="text-container2">
+            <img src="handshake.png.png" alt="" className="card-image2" />
             <p>
-              The quality of their work stands out the most. They're
-              knowledgeable and provide useful feedback.
+              The quality of their work stands <br /> out the most. They're <br />
+              knowledgeable and provide <br /> useful feedback.
             </p>
           </div>
           <img src="hourglass.png" alt="" className="card-image" />
