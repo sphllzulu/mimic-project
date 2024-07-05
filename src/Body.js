@@ -5,7 +5,7 @@ const Body = () => {
     <div>
       <div className="container">
         <h1 className="heading">
-          Stunning <br />
+          Stunning <br/>
           Creative Minds.
         </h1>
         <p className="paragraph" >

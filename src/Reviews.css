@@ -1,7 +1,7 @@
 
-.container-right{
-     margin-top: 100px;
-    }
+ .container-right{
+     margin-top: 50px;
+    } 
     .circle1, .circle2, .circle3, .circle4, .ball2 {
     display: inline-block;
      margin-top: 100px;
@@ -52,9 +52,9 @@
     display: inline-block;
     margin: 10px;
     position: absolute;
-    top: 340px; 
-    left: 470px;
-    z-index: 1;
+    top: 100px; 
+    right: 100px;
+    /* z-index: 1; */
 
     
     }
@@ -64,9 +64,9 @@
 
     .card1 {
      width: 170px;
-     height: 275px;
+     height: 250px;
      background: linear-gradient(109.6deg, rgb(255, 78, 80) 11.2%, rgb(249, 212, 35) 100.2%); /* Gradient background similar to the image */
-     border-radius: 15px; /* Rounded corners */
+     border-radius: 15px; 
      padding: 20px;
      text-align: center;
      color: white;
@@ -106,13 +106,13 @@
     /* Card2 */
     .card2 {
     width: 170px;
-    height: 275px;
-     background: linear-gradient(135deg, #800080, #4b0082); /* Gradient background similar to the image */
-     border-radius: 15px; /* Rounded corners */
+    height: 250px;
+     background: linear-gradient(135deg, #800080, #4b0082); 
+     border-radius: 15px; 
      padding: 20px;
      text-align: center;
      color: white;
-     font-family: Arial, sans-serif;
+     font-family:Outfit;
     position: relative;
 overflow: hidden;
      margin-right: 20px;
@@ -122,14 +122,14 @@ overflow: hidden;
     }
     
     .card-image {
-    width: 50%;
- border-radius: 15px;
+    width: 50px;
+ 
     transform: rotate(40deg)
     }
     
     .text-container2 {
      position: absolute;
-     top: 150px; /* Adjust based on the image size */
+     top: 100px; 
      left: 20px;
      right: 20px;
      text-align: left;
@@ -138,7 +138,7 @@ overflow: hidden;
     .text-container2 p {
      margin: 0;
      padding: 0;
-    font-size: 16px;
+    font-size: 10px;
     }
 .cards{
      display: flex;
@@ -148,31 +148,37 @@ overflow: hidden;
     
     .bell{
     display: flex;
-    position: relative;
+    align-items: center;
+       position: relative;
      margin: 20px;
     }
     
-    profile-pics{
-     display: flex;
-     position: relative;
-    position: absolute;
-    left: 300px;
- bottom:100px;
+    .subscribers-container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position:absolute;
+      right: 200px;
+      bottom: 5px;
+       }
+    
+    .profile-images {
+      display: flex;
+      align-items: center;
     }
     
-    .pic1{
-     position: relative;
-     left: 10px;
+    .profile-image {
+      width: 50px; 
+      height: 40px; 
+      border-radius: 50%;
+      margin-right: -10px; 
+      border: 2px solid white; 
     }
-    .pic2{
-    position: relative;
-     left: 10px;
+    
+    .subscribers-text {
+      font-size: 16px; 
+     font-weight: 100;
+      margin-left: 10px; 
+      
     }
-    .pic3{
-     position: relative;
-     left: 10px;
-    }
-    .pic1{
-    position: relative;
-     left: 10px;
-    }
+    

@@ -3,6 +3,7 @@ import './App.css';
 import Balls from './Balls';
 
 import Body from './Body';
+import Footer from './Footer';
 import Navbar from './Navbar';
 import Reviews from './Reviews';
 
@@ -21,7 +22,7 @@ function App() {
       <Reviews/>
       </div>
       </div>
-      
+      <Footer/>
       </div>
      
     

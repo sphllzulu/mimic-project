@@ -29,9 +29,9 @@ const Reviews = () => {
             className="adrian-image"
           />
           <div className="text-container1">
-            <h1>ADRIAN LUNGA</h1>
-            <h2>Founder,</h2>
-            <h2>Engineering Inc.</h2>
+            <h1>ADRIAN <br/> LUNGA</h1>
+            <small>Founder</small><br/>
+            <small>Engineering Inc.</small>
           </div>
         </div>
 
@@ -45,18 +45,19 @@ const Reviews = () => {
           <img src="hourglass.png" alt="" className="card-image" />
         </div>
       </div>
-{/* <div className="profiles-container">
-      <div className="profile-pics">
-        <div className="pic1"><img src="profile.jpg" alt="" style={{ width: "30px", height: "30px" }} /></div>
-        <div className="pic2"><img src="profile.jpg" alt="" style={{ width: "30px", height: "30px" }} /></div>
-        <div className="pic3"><img src="profile.jpg" alt="" style={{ width: "30px", height: "30px" }} /></div>
-        <div className="pic4"><img src="profile.jpg" alt="" style={{ width: "30px", height: "30px" }} /></div>
+
+      <div className="subscribers-container">
+      <div className="profile-images">
+        
+          <img  src= "profile.jpg" alt='' className="profile-image" />
+          <img  src= "profile.jpg" alt='' className="profile-image" />
+          <img  src= "profile.jpg" alt='' className="profile-image" />
+          <img  src= "profile.jpg" alt='' className="profile-image" />
+        
       </div>
-      <div>
-      <div className="text">
-        <p><b>+21K</b> recruiters have <br />already subscribed</p></div>
+      <p className="subscribers-text"> <b>+21k</b> recruiters have <br/>  already subscribed</p>
     </div>
-      </div> */}
+
       
     </div>
   );

@@ -3,11 +3,11 @@
   .container {
     max-width: 100%; 
     padding: 10px;
-    margin-top: 50px; /* Reduce margin for better layout on smaller screens */
+    
   }
 
    .heading {
-    font-size: 1rem; /* Use viewport width (vw) for responsive font size */
+    font-size: 0.5rem; 
     font-weight: 100;
     
   } 
@@ -24,12 +24,12 @@
   }
 }
 
-/* Original styles */
+
 .container {
   text-align: left;
-  padding: 20px;
-  max-width: 600px;
-  width: 500px;
+  
+  /* max-width: 600px;
+  width: 500px; */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -40,13 +40,13 @@
 .heading {
   font-size: 70px; 
   
-  font-weight: 900px;
-  margin-bottom: 1rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
 }
 
 .paragraph {
-  font-size: 20px;
-  margin-bottom: 1.5rem;
+  font-size: 15px;
+ 
 }
 
 
